@@ -1,0 +1,14 @@
+/bce/lectures/2025-advanced-programming/202055154/week3/Week3App/bin/Debug/net8.0/Week3App
+/bce/lectures/2025-advanced-programming/202055154/week3/Week3App/bin/Debug/net8.0/Week3App.deps.json
+/bce/lectures/2025-advanced-programming/202055154/week3/Week3App/bin/Debug/net8.0/Week3App.runtimeconfig.json
+/bce/lectures/2025-advanced-programming/202055154/week3/Week3App/bin/Debug/net8.0/Week3App.dll
+/bce/lectures/2025-advanced-programming/202055154/week3/Week3App/bin/Debug/net8.0/Week3App.pdb
+/bce/lectures/2025-advanced-programming/202055154/week3/Week3App/obj/Debug/net8.0/Week3App.GeneratedMSBuildEditorConfig.editorconfig
+/bce/lectures/2025-advanced-programming/202055154/week3/Week3App/obj/Debug/net8.0/Week3App.AssemblyInfoInputs.cache
+/bce/lectures/2025-advanced-programming/202055154/week3/Week3App/obj/Debug/net8.0/Week3App.AssemblyInfo.cs
+/bce/lectures/2025-advanced-programming/202055154/week3/Week3App/obj/Debug/net8.0/Week3App.csproj.CoreCompileInputs.cache
+/bce/lectures/2025-advanced-programming/202055154/week3/Week3App/obj/Debug/net8.0/Week3App.dll
+/bce/lectures/2025-advanced-programming/202055154/week3/Week3App/obj/Debug/net8.0/refint/Week3App.dll
+/bce/lectures/2025-advanced-programming/202055154/week3/Week3App/obj/Debug/net8.0/Week3App.pdb
+/bce/lectures/2025-advanced-programming/202055154/week3/Week3App/obj/Debug/net8.0/Week3App.genruntimeconfig.cache
+/bce/lectures/2025-advanced-programming/202055154/week3/Week3App/obj/Debug/net8.0/ref/Week3App.dll

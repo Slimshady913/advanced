@@ -12,3 +12,4 @@
 /bce/lectures/2025-advanced-programming/202055154/homework1/csharp/RestaurantApp/obj/Debug/net8.0/RestaurantApp.pdb
 /bce/lectures/2025-advanced-programming/202055154/homework1/csharp/RestaurantApp/obj/Debug/net8.0/RestaurantApp.genruntimeconfig.cache
 /bce/lectures/2025-advanced-programming/202055154/homework1/csharp/RestaurantApp/obj/Debug/net8.0/ref/RestaurantApp.dll
+/bce/lectures/2025-advanced-programming/202055154/homework1/csharp/RestaurantApp/obj/Debug/net8.0/RestaurantApp.sourcelink.json

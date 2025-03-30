@@ -1,0 +1,15 @@
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/LTD/D/bin/Debug/net8.0/D
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/LTD/D/bin/Debug/net8.0/D.deps.json
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/LTD/D/bin/Debug/net8.0/D.runtimeconfig.json
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/LTD/D/bin/Debug/net8.0/D.dll
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/LTD/D/bin/Debug/net8.0/D.pdb
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/LTD/D/obj/Debug/net8.0/D.GeneratedMSBuildEditorConfig.editorconfig
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/LTD/D/obj/Debug/net8.0/D.AssemblyInfoInputs.cache
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/LTD/D/obj/Debug/net8.0/D.AssemblyInfo.cs
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/LTD/D/obj/Debug/net8.0/D.csproj.CoreCompileInputs.cache
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/LTD/D/obj/Debug/net8.0/D.sourcelink.json
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/LTD/D/obj/Debug/net8.0/D.dll
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/LTD/D/obj/Debug/net8.0/refint/D.dll
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/LTD/D/obj/Debug/net8.0/D.pdb
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/LTD/D/obj/Debug/net8.0/D.genruntimeconfig.cache
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/LTD/D/obj/Debug/net8.0/ref/D.dll

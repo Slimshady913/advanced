@@ -1,0 +1,15 @@
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/OVER/obj/Debug/net8.0/OVER.GeneratedMSBuildEditorConfig.editorconfig
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/OVER/obj/Debug/net8.0/OVER.AssemblyInfoInputs.cache
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/OVER/obj/Debug/net8.0/OVER.AssemblyInfo.cs
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/OVER/obj/Debug/net8.0/OVER.csproj.CoreCompileInputs.cache
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/OVER/obj/Debug/net8.0/OVER.sourcelink.json
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/OVER/bin/Debug/net8.0/OVER
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/OVER/bin/Debug/net8.0/OVER.deps.json
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/OVER/bin/Debug/net8.0/OVER.runtimeconfig.json
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/OVER/bin/Debug/net8.0/OVER.dll
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/OVER/bin/Debug/net8.0/OVER.pdb
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/OVER/obj/Debug/net8.0/OVER.dll
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/OVER/obj/Debug/net8.0/refint/OVER.dll
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/OVER/obj/Debug/net8.0/OVER.pdb
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/OVER/obj/Debug/net8.0/OVER.genruntimeconfig.cache
+/bce/lectures/2025-advanced-programming/202055154/homework2/Csharp/OVER/obj/Debug/net8.0/ref/OVER.dll

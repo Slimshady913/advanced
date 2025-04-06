@@ -1,0 +1,15 @@
+/bce/lectures/2025-advanced-programming/202055154/homework3/Composition/CsComposition/bin/Debug/net8.0/CsComposition
+/bce/lectures/2025-advanced-programming/202055154/homework3/Composition/CsComposition/bin/Debug/net8.0/CsComposition.deps.json
+/bce/lectures/2025-advanced-programming/202055154/homework3/Composition/CsComposition/bin/Debug/net8.0/CsComposition.runtimeconfig.json
+/bce/lectures/2025-advanced-programming/202055154/homework3/Composition/CsComposition/bin/Debug/net8.0/CsComposition.dll
+/bce/lectures/2025-advanced-programming/202055154/homework3/Composition/CsComposition/bin/Debug/net8.0/CsComposition.pdb
+/bce/lectures/2025-advanced-programming/202055154/homework3/Composition/CsComposition/obj/Debug/net8.0/CsComposition.GeneratedMSBuildEditorConfig.editorconfig
+/bce/lectures/2025-advanced-programming/202055154/homework3/Composition/CsComposition/obj/Debug/net8.0/CsComposition.AssemblyInfoInputs.cache
+/bce/lectures/2025-advanced-programming/202055154/homework3/Composition/CsComposition/obj/Debug/net8.0/CsComposition.AssemblyInfo.cs
+/bce/lectures/2025-advanced-programming/202055154/homework3/Composition/CsComposition/obj/Debug/net8.0/CsComposition.csproj.CoreCompileInputs.cache
+/bce/lectures/2025-advanced-programming/202055154/homework3/Composition/CsComposition/obj/Debug/net8.0/CsComposition.sourcelink.json
+/bce/lectures/2025-advanced-programming/202055154/homework3/Composition/CsComposition/obj/Debug/net8.0/CsComposition.dll
+/bce/lectures/2025-advanced-programming/202055154/homework3/Composition/CsComposition/obj/Debug/net8.0/refint/CsComposition.dll
+/bce/lectures/2025-advanced-programming/202055154/homework3/Composition/CsComposition/obj/Debug/net8.0/CsComposition.pdb
+/bce/lectures/2025-advanced-programming/202055154/homework3/Composition/CsComposition/obj/Debug/net8.0/CsComposition.genruntimeconfig.cache
+/bce/lectures/2025-advanced-programming/202055154/homework3/Composition/CsComposition/obj/Debug/net8.0/ref/CsComposition.dll

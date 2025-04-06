@@ -1,0 +1,15 @@
+/bce/lectures/2025-advanced-programming/202055154/homework3/Squares/CsSquares/bin/Debug/net8.0/CsSquares
+/bce/lectures/2025-advanced-programming/202055154/homework3/Squares/CsSquares/bin/Debug/net8.0/CsSquares.deps.json
+/bce/lectures/2025-advanced-programming/202055154/homework3/Squares/CsSquares/bin/Debug/net8.0/CsSquares.runtimeconfig.json
+/bce/lectures/2025-advanced-programming/202055154/homework3/Squares/CsSquares/bin/Debug/net8.0/CsSquares.dll
+/bce/lectures/2025-advanced-programming/202055154/homework3/Squares/CsSquares/bin/Debug/net8.0/CsSquares.pdb
+/bce/lectures/2025-advanced-programming/202055154/homework3/Squares/CsSquares/obj/Debug/net8.0/CsSquares.GeneratedMSBuildEditorConfig.editorconfig
+/bce/lectures/2025-advanced-programming/202055154/homework3/Squares/CsSquares/obj/Debug/net8.0/CsSquares.AssemblyInfoInputs.cache
+/bce/lectures/2025-advanced-programming/202055154/homework3/Squares/CsSquares/obj/Debug/net8.0/CsSquares.AssemblyInfo.cs
+/bce/lectures/2025-advanced-programming/202055154/homework3/Squares/CsSquares/obj/Debug/net8.0/CsSquares.csproj.CoreCompileInputs.cache
+/bce/lectures/2025-advanced-programming/202055154/homework3/Squares/CsSquares/obj/Debug/net8.0/CsSquares.sourcelink.json
+/bce/lectures/2025-advanced-programming/202055154/homework3/Squares/CsSquares/obj/Debug/net8.0/CsSquares.dll
+/bce/lectures/2025-advanced-programming/202055154/homework3/Squares/CsSquares/obj/Debug/net8.0/refint/CsSquares.dll
+/bce/lectures/2025-advanced-programming/202055154/homework3/Squares/CsSquares/obj/Debug/net8.0/CsSquares.pdb
+/bce/lectures/2025-advanced-programming/202055154/homework3/Squares/CsSquares/obj/Debug/net8.0/CsSquares.genruntimeconfig.cache
+/bce/lectures/2025-advanced-programming/202055154/homework3/Squares/CsSquares/obj/Debug/net8.0/ref/CsSquares.dll

@@ -1,0 +1,93 @@
+name: Build and Release
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build and Package Projects
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Install dependencies for C++
+      run: sudo apt-get update && sudo apt-get install -y build-essential g++
+
+    - name: Build C++ files
+      run: |
+        mkdir -p build/cpp
+        for file in $(find homework4/design_pattern/cpp -name "*.cpp"); do
+          g++ $file -o build/cpp/$(basename $file .cpp)
+        done
+
+    - name: Set up .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '6.0.x'
+
+    - name: Build C# files
+      run: |
+        mkdir -p build/csharp
+        for file in $(find homework4/design_pattern/csharp -name "*.cs"); do
+          mcs $file -out:build/csharp/$(basename $file .cs).exe
+        done
+
+    - name: Set up Kotlin
+      uses: actions/setup-java@v3
+      with:
+        distribution: 'temurin'
+        java-version: '11'
+
+    - name: Build Kotlin files
+      run: |
+        mkdir -p build/kotlin
+        for file in $(find homework4/design_pattern/kotlin -name "*.kt"); do
+          kotlinc $file -include-runtime -d build/kotlin/$(basename $file .kt).jar
+        done
+
+    - name: Create release package
+      run: |
+        mkdir -p release
+        zip -r release/homework4_builds.zip build
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: homework4_builds
+        path: release/homework4_builds.zip
+
+  release:
+    name: Create GitHub Release
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Download artifact
+      uses: actions/download-artifact@v3
+      with:
+        name: homework4_builds
+
+    - name: Create Release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: v1.0.${{ github.run_number }}
+        release_name: Homework4 Build Release
+        body: |
+          This release contains the compiled binaries for the C++, C#, and Kotlin projects.
+        draft: false
+        prerelease: false
+        files: release/homework4_builds.zip
+
+

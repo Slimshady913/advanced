@@ -58,8 +58,8 @@ jobs:
     - name: Create release package
       run: |
         mkdir -p release
-        zip -r release/homework4_builds.zip build  # 수정: build 디렉터리를 압축
-        ls -l release  # 디버깅: release 디렉터리 내용 출력
+        zip -r release/homework4_builds.zip build/*  # build 디렉터리의 모든 파일을 압축
+        ls -lh release  # 디버깅: release 디렉터리 내용 출력
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4
@@ -84,7 +84,7 @@ jobs:
 
     - name: Verify artifact exists
       run: |
-        ls -l release  # 디버깅: release 디렉터리 내용 출력
+        ls -lh release  # 디버깅: release 디렉터리 내용 출력
         if [ ! -f release/homework4_builds.zip ]; then
           echo "Error: release/homework4_builds.zip not found"
           exit 1

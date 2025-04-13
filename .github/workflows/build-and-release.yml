@@ -58,8 +58,15 @@ jobs:
     - name: Create release package
       run: |
         mkdir -p release
-        zip -r release/homework4_builds.zip build/*  # build 디렉터리의 모든 파일을 압축
+        zip -r release/homework4_builds.zip build/*
         ls -lh release  # 디버깅: release 디렉터리 내용 출력
+
+    - name: Verify package before upload
+      run: |
+        if [ ! -f release/homework4_builds.zip ]; then
+          echo "Error: release/homework4_builds.zip is missing before upload"
+          exit 1
+        fi
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4
@@ -80,7 +87,7 @@ jobs:
       uses: actions/download-artifact@v4
       with:
         name: homework4_builds
-        path: release/homework4_builds.zip
+        path: release/
 
     - name: Verify artifact exists
       run: |

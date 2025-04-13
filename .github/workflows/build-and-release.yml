@@ -58,7 +58,7 @@ jobs:
         zip -r release/homework4_builds.zip build
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: homework4_builds
         path: release/homework4_builds.zip

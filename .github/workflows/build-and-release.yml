@@ -58,7 +58,7 @@ jobs:
     - name: Create release package
       run: |
         mkdir -p release
-        zip -r release/homework4_builds.zip build/*  # 수정: build 디렉터리의 모든 파일을 압축
+        zip -r release/homework4_builds.zip build  # 수정: build 디렉터리를 압축
         ls -l release  # 디버깅: release 디렉터리 내용 출력
 
     - name: Upload artifact

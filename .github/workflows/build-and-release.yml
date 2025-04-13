@@ -8,6 +8,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write  # GITHUB_TOKEN에 릴리즈 생성 권한 부여
+
 jobs:
   build:
     name: Build and Package Projects
@@ -77,15 +80,16 @@ jobs:
       with:
         name: homework4_builds
 
-    - name: Create Release
-      uses: actions/create-release@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        tag_name: v1.0.${{ github.run_number }}
-        release_name: Homework4 Build Release
-        body: |
-          This release contains the compiled binaries for the C++, C#, and Kotlin projects.
-        draft: false
-        prerelease: false
-        files: release/homework4_builds.zip
+    - name: Install GitHub CLI
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y gh
+
+    - name: Authenticate GitHub CLI
+      run: echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
+
+    - name: Create Release and Upload Files
+      run: |
+        gh release create v1.0.${{ github.run_number }} release/homework4_builds.zip \
+          --title "Homework4 Build Release" \
+          --notes "This release contains the compiled binaries for the C++, C#, and Kotlin projects."
